@@ -6,7 +6,7 @@ redirect_from:
   - /about-us.html
 ---
 
-We are a group of 4 scientists, from various backgrounds, dedicated to the research of Theory-of-Mind and its application to AI.
+We are four scientists dedicated to the research of Theory-of-Mind and its application to biological and artificial intelligence.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 40px; margin-top: 2em; margin-bottom: 2em; max-width: 600px; margin-left: auto; margin-right: auto;">
   <div style="flex: 0 1 240px; text-align: center;">

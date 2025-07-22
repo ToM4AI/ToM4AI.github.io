@@ -6,4 +6,4 @@ redirect_from:
   - /book.html
 ---
 
-Stay tuned for news about our up and comming book on ToM4AI
+Stay tuned for news about our upcoming introductory book on Theory of Mind for Artificial Intelligence.
