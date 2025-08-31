@@ -3,8 +3,6 @@ title: "Call for Papers - ToM4AI Workshop at AAAI 2026"
 permalink: /AAAI2026/call-for-papers/
 ---
 
-# Call for Papers
-
 We invite the participation of researchers who are interested in directly addressing Theory of Mind in AI. We are also expecting submissions to ToM4AI and related topics relevant to designing, developing, demonstrating, or evaluating ToM-based AI agents.
 Submission requirements
 

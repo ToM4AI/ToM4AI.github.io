@@ -3,7 +3,7 @@ title: "Keynote Speakers - ToM4AI Workshop at AAAI 2026"
 permalink: /AAAI2026/keynote-speakers/
 ---
 
-# Keynote Speakers
+We are pround and honored to host the following researchers as keynote speakers this year.
 
 - **Prof. Geoff Bird** (Oxford University)
 - **Prof. Sarit Kraus** (Bar-Ilan University)
