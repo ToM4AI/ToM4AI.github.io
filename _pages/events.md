@@ -6,6 +6,11 @@ redirect_from:
   - /events.html
 ---
 
+## AAAI-2026
+
+We are thrilled to announce the 2nd ToM4AI workshop. 
+[AAAI-2026 Workshop Details](AAAI2026/AAAI2026.md)
+
 ## AAAI-2025
 
 The inaugural Theory of Mind for AI (ToM4AI) workshop at AAAI 2025 brought together a multidisciplinary community to explore the diverse and evolving role of Theory of Mind in modern AI. The event served as a dynamic forum for researchers to discuss how and why ToM can (and should) enrich artificial intelligence systems.
@@ -17,8 +22,3 @@ The workshop included spotlight poster sessions and interactive roundtable discu
 The proceedings, featuring 28 contributed papers, are available on arXiv: [arxiv.org/abs/2505.03770](https://arxiv.org/abs/2505.03770)
 
 For more information, visit the ToM4AI workshop website: [https://sites.google.com/view/theory-of-mind-aaai-2025](https://sites.google.com/view/theory-of-mind-aaai-2025)
-
-## AAAI-2026
-
-We are thrilled to announce the 2nd ToM4AI workshop. 
-[AAAI-2026 Workshop Details](AAAI2026/AAAI2026.md)

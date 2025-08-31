@@ -1,5 +1,5 @@
 ---
-title: "Call for Papers - ToM4AI Workshop at AAAI 2026"
+title: "Call for Papers - ToM4AI Workshop@AAAI 2026"
 permalink: /AAAI2026/call-for-papers/
 ---
 
