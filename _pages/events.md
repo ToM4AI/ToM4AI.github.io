@@ -20,4 +20,4 @@ For more information, visit the ToM4AI workshop website: [https://sites.google.c
 
 ## AAAI-2026
 
-[AAAI-2026 Workshop Details](events/AAAI2026)
+[AAAI-2026 Workshop Details](AAAI2026/AAAI2026.md)
