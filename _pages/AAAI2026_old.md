@@ -1,5 +1,5 @@
 ---
-permalink: /events/AAAI2026/
+permalink: /events/AAAI2026_placeholder/
 title: "ToM4AI Workshop at AAAI 2026"
 author_profile: true
 ---
