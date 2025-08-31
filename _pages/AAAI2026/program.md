@@ -1,6 +1,6 @@
 ---
 title: "Program - ToM4AI Workshop at AAAI 2026"
-permalink: /events/AAAI2026/program/
+permalink: /AAAI2026/program/
 ---
 
 # Workshop Program

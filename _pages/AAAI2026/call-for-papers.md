@@ -1,6 +1,6 @@
 ---
 title: "Call for Papers - ToM4AI Workshop at AAAI 2026"
-permalink: /events/AAAI2026/call-for-papers/
+permalink: /AAAI2026/call-for-papers/
 ---
 
 # Call for Papers
