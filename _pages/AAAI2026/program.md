@@ -3,7 +3,7 @@ title: "Program - ToM4AI Workshop at AAAI 2026"
 permalink: /AAAI2026/program/
 ---
 
-ToM4AI is a full, one-day workshop (date TBA) 
+ToM4AI is a full, one-day workshop (date TBA; it will either be the 26th or 27th of Jan 2026) 
 
 ## Proposed Schedule
 
@@ -12,9 +12,8 @@ ToM4AI is a full, one-day workshop (date TBA)
 | 09:00 - 09:10 | Opening Remarks                              |
 | 09:10 - 10:10 | Keynote: Prof. Geoff Bird                    |
 | 10:10 - 11:10 | Keynote: Prof. Sarit Kraus                   |
-| 11:10 - 11:30 | Coffee Break & Networking                    |
-| 11:30 - 12:30 | Paper Presentations                          |
-| 12:30 - 13:20 | Keynote: Prof. Oriel FeldmanHall             |
+| 11:10 - 12:00 | Coffee Break, Networking & Posters           |
+| 12:00 - 13:20 | Paper Presentations                          |
 | 13:20 - 14:00 | Lunch                                        |
 | 14:00 - 15:15 | Collaborative ToM ’Hackathon’                |
 | 15:30 - 16:30 | Poster Session & Coffee                      |
