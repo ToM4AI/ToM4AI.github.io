@@ -19,3 +19,4 @@ ToM4AI is a full, one-day workshop (date TBA; it will either be the 26th or 27th
 | 15:30 - 16:30 | Poster Session & Coffee                      |
 | 16:30 - 17:20 | Keynote: Martin Sap                          |
 | 17:20 - 17:45 | Closing Remarks                              |
+| 17:45 - late  | ToM4AI Social; Location TBC [Optional]       |
