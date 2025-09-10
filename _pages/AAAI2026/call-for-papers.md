@@ -21,7 +21,7 @@ We welcome submissions in the form of **extended abstracts** (*maximum 2 pages*,
 - 05/11/2025 - authors notification
 
 **Topics include (but are not limited to):**
-Topics include, but are not limited to: 
+
 - Developmental ToM: Insights for AI
 - Human Social Behaviour & Cognition
 - The Role of ToM in Human-AI Interaction 
