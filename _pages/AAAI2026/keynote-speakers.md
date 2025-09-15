@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speakers - ToM4AI Workshop at AAAI 2026"
+title: "Keynote Speakers"
 permalink: /AAAI2026/keynote-speakers/
 ---
 

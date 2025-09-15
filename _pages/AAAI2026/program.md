@@ -1,5 +1,5 @@
 ---
-title: "Program - ToM4AI Workshop at AAAI 2026"
+title: "Program"
 permalink: /AAAI2026/program/
 ---
 
