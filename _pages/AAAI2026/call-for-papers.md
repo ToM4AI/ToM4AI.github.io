@@ -15,7 +15,7 @@ We welcome submissions in the form of **extended abstracts** (*maximum 2 pages*,
 > Papers must be submitted as high-resolution PDFs, formatted for US Letter (8.5″ × 11″) size, using Type 1 or TrueType fonts.  
 > All reviews will be **double-blind**.  
 > Submissions must adhere to the [AAAI-26 guidelines](https://aaai.org/conference/aaai/aaai-26/submission-instructions/),
-> the official author kit can be downloaded [here](files/AuthorKit26.zip). 
+> the official author kit can be downloaded [here](../../files/AuthorKit26.zip). 
 
 **Important dates:**
 
