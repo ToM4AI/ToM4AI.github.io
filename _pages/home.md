@@ -7,7 +7,10 @@ redirect_from:
   - /home.html
 ---
 
+**Update: We've extended the submission deadline to 05/11/2025**
+
 The **2026 ToM4AI Workshop** will continue the initiative's mission by fostering collaboration and sharing the latest research at the intersection of Theory of Mind and artificial intelligence. For details on submission guidelines and important dates, please see the [Call for Papers](AAAI2026/call-for-papers.md).
+
 
 The **Theory of Mind for AI (ToM4AI)** initiative is a multidisciplinary effort dedicated to advancing artificial intelligence by integrating principles of human social cognition.
 

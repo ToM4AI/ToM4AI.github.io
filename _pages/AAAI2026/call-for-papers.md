@@ -19,8 +19,9 @@ We welcome submissions in the form of **extended abstracts** (*maximum 2 pages*,
 
 **Important dates:**
 
-- **22/10/2025 - submissions due (AOE)**
-- 05/11/2025 - authors notification
+- ~~22/10/2025 - submissions due (AOE)~~
+- **05/11/2025 - submissions due (AOE)**
+- 15/11/2025 - authors notification
 
 **Topics include (but are not limited to):**
 
