@@ -188,48 +188,17 @@ layout: single
 
 <div class="stats">
   <div class="stat-card">
-    <h3 id="total-posters">50</h3>
+    <h3>50</h3>
     <p>Total Posters</p>
   </div>
   <div class="stat-card">
-    <h3 id="session-a-count">25</h3>
+    <h3>24</h3>
     <p>Session I (Set A)</p>
   </div>
   <div class="stat-card">
-    <h3 id="session-b-count">25</h3>
+    <h3>26</h3>
     <p>Session II (Set B)</p>
   </div>
-</div>
-
-<div class="filter-section">
-  <h3 style="margin-top: 0; color: #007bff;">🔍 Filter Posters</h3>
-  
-  <div class="filter-group">
-    <label for="search-input">Search by Title or Number:</label><br>
-    <input type="text" id="search-input" placeholder="Enter title keywords or poster number...">
-  </div>
-  
-  <div class="filter-group">
-    <label for="group-filter">Filter by Research Group:</label><br>
-    <select id="group-filter">
-      <option value="">All Groups</option>
-      <option value="Group 1">Group 1: Human-AI Interaction & Trust</option>
-      <option value="Group 2">Group 2: LLM Theory of Mind & Evaluation</option>
-      <option value="Group 3">Group 3: Multi-Agent Systems & Game Theory</option>
-      <option value="Group 4">Group 4: Cognitive Architectures & Multimodal ToM</option>
-    </select>
-  </div>
-  
-  <div class="filter-group">
-    <label for="session-filter">Filter by Session:</label><br>
-    <select id="session-filter">
-      <option value="">All Sessions</option>
-      <option value="Set A">Poster Session I (Set A: Human & Cognitive)</option>
-      <option value="Set B">Poster Session II (Set B: Computational Agents)</option>
-    </select>
-  </div>
-  
-  <button onclick="clearFilters()" style="padding: 10px 20px; background: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: 600; margin-top: 10px;">Clear Filters</button>
 </div>
 
 <div id="session-a-section">
@@ -237,16 +206,16 @@ layout: single
     📊 Poster Session I - Set A: Human & Cognitive Aspects<br>
     <small style="font-size: 14px; opacity: 0.9;">10:05 - 10:30</small>
   </div>
-  <table class="poster-table" id="session-a-table">
+  <table class="poster-table">
     <thead>
       <tr>
-        <th onclick="sortTable('a', 0)" style="width: 80px;">#</th>
-        <th onclick="sortTable('a', 1)">Title</th>
-        <th onclick="sortTable('a', 2)">Research Group</th>
+        <th style="width: 80px;">#</th>
+        <th>Title</th>
+        <th>Research Group</th>
       </tr>
     </thead>
-    <tbody id="session-a-body">
-      <tr data-number="4" data-group="Group 4" data-session="Set A">
+    <tbody>
+      <tr>
         <td><strong>#4</strong></td>
         <td>NAIL: A Neuropsychological Approach to Interpretability in Large Language Agents: Applications to Theory of Mind</td>
         <td><span class="badge badge-group-4">Group 4: Cognitive Architectures & Multimodal ToM</span></td>
@@ -368,9 +337,6 @@ layout: single
       </tr>
     </tbody>
   </table>
-  <div id="session-a-empty" class="no-results" style="display: none;">
-    No posters match your filters for Session I
-  </div>
 </div>
 
 <div id="session-b-section">
@@ -378,16 +344,16 @@ layout: single
     📊 Poster Session II - Set B: Computational Agents & Systems<br>
     <small style="font-size: 14px; opacity: 0.9;">12:00 - 12:30</small>
   </div>
-  <table class="poster-table" id="session-b-table">
+  <table class="poster-table">
     <thead>
       <tr>
-        <th onclick="sortTable('b', 0)" style="width: 80px;">#</th>
-        <th onclick="sortTable('b', 1)">Title</th>
-        <th onclick="sortTable('b', 2)">Research Group</th>
+        <th style="width: 80px;">#</th>
+        <th>Title</th>
+        <th>Research Group</th>
       </tr>
     </thead>
-    <tbody id="session-b-body">
-      <tr data-number="1" data-group="Group 2" data-session="Set B">
+    <tbody>
+      <tr>
         <td><strong>#1</strong></td>
         <td>A Practical Sufficient Test of Consciousness for Language Models</td>
         <td><span class="badge badge-group-2">Group 2: LLM Theory of Mind & Evaluation</span></td>
@@ -544,193 +510,6 @@ layout: single
       </tr>
     </tbody>
   </table>
-  <div id="session-b-empty" class="no-results" style="display: none;">
-    No posters match your filters for Session II
-  </div>
 </div>
 
 </div>
-
-<script>
-const postersData = [
-  {number: 1, title: "A Practical Sufficient Test of Consciousness for Language Models", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 2, title: "How Uninformed Reports Impact Trust: A Formal Model Involving Implicit Intention", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 4, title: "NAIL: A Neuropsychological Approach to Interpretability in Large Language Agents: Applications to Theory of Mind", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 5, title: "The AI Tipping Point: How Design and Repeated Use Shape Beliefs about Machine Minds", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 6, title: "The Resonance Corpus: A Large-Scale Chinese Parent–Child Conversation Dataset", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 7, title: "HiVAE: Hierarchical Latent Variables for Scalable Theory of Mind", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 8, title: "RToMA: Recursive Theory of Mind Alignment for Large Language Models", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 9, title: "Exploration Through Introspection: A Self-Aware Reward Model", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 11, title: "Toward Theory of Mind: BERT Learns and Uses Emotion Geometry in Two Phases", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 12, title: "Latent Theory of Mind in World Models for Multi-Agent Reinforcement Learning", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 13, title: "Predicting Emergent Capabilities Using Sparse Features", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 14, title: "Temporal Localization Improves Video Theory of Mind in Multimodal LLMs", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 15, title: ""Tell Me Something About Yourself": Setting Appropriate Perceptions and Expectations on AI Systems", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 16, title: "On the Evolution of Multi-Agent Communication in Non-Cooperative Games", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 17, title: "How Social Environments Shape Brains: Modelling Developmental Adversity using Neural Networks", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 18, title: "A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 19, title: "On the Interplay of Training Population Diversity, Theory of Mind, and Zero-Shot Coordination", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 21, title: "Aesthetic Theory of Mind: Using Artistic Conception Computation as a Litmus Test for Machine ToM", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 22, title: "Morals and Reasoning: Formalizing Moral Influence on Reasoning and AI Systems Alignment", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 23, title: "Four Decision-Heads are Better Than One: Augmenting Decision Making with Collective Cognition in Small Neural Networks", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 24, title: "From Theory of Mind to Theory of Environment: Counterfactual Simulation of Latent Environmental Dynamics", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 26, title: "Routing Belief States: A Meta-Cognitive Architecture for Theory of Mind in Language Models", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 27, title: "Do Language Models Understand Social Minds? A ToM-based Probe Through Norm Detection", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 28, title: "AI Alignment Demands Better Emotion Recognition and Social Understanding Capabilities", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 29, title: "Artificial Theory of Mind in Human-in-the-Loop", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 30, title: "Geometric Belief Spaces: A Topological Framework for Scalable Multi-Agent Theory of Mind", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 31, title: "Who Knows Who Knows? A Step Toward Common Knowledge in Multi-Agent Systems", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 32, title: "Theory of Mind for Explainable Human-Robot Interaction", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 33, title: "SUITE: Scaling Up Individualized Theory-of-Mind Evaluation in Large Language Models", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 34, title: "Theory of Mind and Optimistic Beliefs Emerge in a Sequential Dilemma with Incremental Rewards", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 35, title: "Visual Theory of Mind through LLM-based Semantic Extraction", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 36, title: "Theory of Mind through Partially Ordered Plans", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 37, title: "Decomposing Theory of Mind: How Emotional Processing Mediates ToM Abilities in LLMs", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 38, title: "Inside Deception: How to Exploit a Target", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 39, title: "Learning User Boredom Thresholds for a Conversational Robot", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 40, title: "Language-Informed Synthesis of Rational Agent Models for Grounded Theory-of-Mind Reasoning On-The-Fly", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 41, title: "Complementarity of Developmental Motivation and Learned Intrinsic Rewards in Multi-Agent Reinforcement Learning", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 42, title: "Recursive Bayesian Theory of Mind for Sparse-Observation Multi-Agent Gridworlds", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 43, title: "Reasoning About Bias: Theory of Mind for Trustworthy Knowledge Distillation", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 45, title: "Do LLMs Possess Theory of Mind in Pokémon Battle Paradigm", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 46, title: "Investigating the Effects of Translation Quality on LLM Performance in Machine-Translated Theory of Mind Benchmarks", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 47, title: "Sign-Based World Model as a Basis of Cognitive Modeling: Imitation in Human-Robot Interaction", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 48, title: "Beyond VAGUE: Attention Analysis for Probing How VLMs Ground Ambiguity", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 49, title: "Semantic Encoders Enable Robust Communication-Aware Reinforcement Learning Policies", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 50, title: "Faithful Theory of Mind Distillation: Why Preference Based Refinement Improves Imitation", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 51, title: "Introducing Dialogue-Act Framework for Multi-Agent LLM Negotiation", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 52, title: "A Model-Based Approach for Recognizing Unknown Goal Combinations", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 53, title: "The Curse of Knowledge in Language Models: Perfect Theory of Mind or Missing Human Biases?", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 54, title: "A Multi-Game MARL Framework for Evaluating Social Reasoning", group: "Group 3: Multi-Agent Systems & Game Theory", session: "Set B: Computational Agents & Systems"},
-  {number: 55, title: "Correcting LLM Errors: A Metacognitive Architecture for ToM Adaptation in AI Agents", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 56, title: "Connectome-Based Alignment between Brain and Large Language Models via Gromov-Wasserstein Barycenters", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"},
-  {number: 57, title: "Explanation-first Explainable AI", group: "Group 1: Human-AI Interaction & Trust", session: "Set A: Human & Cognitive Aspects"},
-  {number: 58, title: "Belief-Desire-Intention Dynamics in Language Models via the p-Beauty Contest", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 59, title: "A Mechanistic Investigation of Theory-of-Mind in a Large Language Model", group: "Group 2: LLM Theory of Mind & Evaluation", session: "Set B: Computational Agents & Systems"},
-  {number: 60, title: "Theoretical Framework for a Quantum Brain Model", group: "Group 4: Cognitive Architectures & Multimodal ToM", session: "Set A: Human & Cognitive Aspects"}
-];
-
-let currentData = [...postersData];
-
-function getGroupBadgeClass(group) {
-  if (group.includes('Group 1')) return 'badge-group-1';
-  if (group.includes('Group 2')) return 'badge-group-2';
-  if (group.includes('Group 3')) return 'badge-group-3';
-  if (group.includes('Group 4')) return 'badge-group-4';
-  return '';
-}
-
-function getSessionBadgeClass(session) {
-  return session.includes('Set A') ? 'badge-session-a' : 'badge-session-b';
-}
-
-function renderPosters() {
-  const sessionABody = document.getElementById('session-a-body');
-  const sessionBBody = document.getElementById('session-b-body');
-  const sessionAEmpty = document.getElementById('session-a-empty');
-  const sessionBEmpty = document.getElementById('session-b-empty');
-  const sessionATable = document.getElementById('session-a-table');
-  const sessionBTable = document.getElementById('session-b-table');
-  
-  sessionABody.innerHTML = '';
-  sessionBBody.innerHTML = '';
-  
-  const sessionA = currentData.filter(p => p.session.includes('Set A'));
-  const sessionB = currentData.filter(p => p.session.includes('Set B'));
-  
-  // Update stats
-  document.getElementById('total-posters').textContent = currentData.length;
-  document.getElementById('session-a-count').textContent = sessionA.length;
-  document.getElementById('session-b-count').textContent = sessionB.length;
-  
-  // Render Session A
-  if (sessionA.length === 0) {
-    sessionATable.style.display = 'none';
-    sessionAEmpty.style.display = 'block';
-  } else {
-    sessionATable.style.display = 'table';
-    sessionAEmpty.style.display = 'none';
-    sessionA.forEach(poster => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td><strong>#${poster.number}</strong></td>
-        <td>${poster.title}</td>
-        <td><span class="badge ${getGroupBadgeClass(poster.group)}">${poster.group}</span></td>
-      `;
-      sessionABody.appendChild(row);
-    });
-  }
-  
-  // Render Session B
-  if (sessionB.length === 0) {
-    sessionBTable.style.display = 'none';
-    sessionBEmpty.style.display = 'block';
-  } else {
-    sessionBTable.style.display = 'table';
-    sessionBEmpty.style.display = 'none';
-    sessionB.forEach(poster => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td><strong>#${poster.number}</strong></td>
-        <td>${poster.title}</td>
-        <td><span class="badge ${getGroupBadgeClass(poster.group)}">${poster.group}</span></td>
-      `;
-      sessionBBody.appendChild(row);
-    });
-  }
-}
-
-function filterPosters() {
-  const searchTerm = document.getElementById('search-input').value.toLowerCase();
-  const groupFilter = document.getElementById('group-filter').value;
-  const sessionFilter = document.getElementById('session-filter').value;
-  
-  currentData = postersData.filter(poster => {
-    const matchesSearch = searchTerm === '' || 
-                         poster.title.toLowerCase().includes(searchTerm) ||
-                         poster.number.toString().includes(searchTerm);
-    const matchesGroup = groupFilter === '' || poster.group.includes(groupFilter);
-    const matchesSession = sessionFilter === '' || poster.session.includes(sessionFilter);
-    
-    return matchesSearch && matchesGroup && matchesSession;
-  });
-  
-  renderPosters();
-}
-
-function clearFilters() {
-  document.getElementById('search-input').value = '';
-  document.getElementById('group-filter').value = '';
-  document.getElementById('session-filter').value = '';
-  currentData = [...postersData];
-  renderPosters();
-}
-
-function sortTable(session, columnIndex) {
-  const data = currentData.filter(p => 
-    session === 'a' ? p.session.includes('Set A') : p.session.includes('Set B')
-  );
-  
-  const sortKey = columnIndex === 0 ? 'number' : columnIndex === 1 ? 'title' : 'group';
-  
-  data.sort((a, b) => {
-    if (sortKey === 'number') return a[sortKey] - b[sortKey];
-    return a[sortKey].localeCompare(b[sortKey]);
-  });
-  
-  const otherData = currentData.filter(p => 
-    session === 'a' ? !p.session.includes('Set A') : !p.session.includes('Set B')
-  );
-  
-  currentData = session === 'a' ? [...data, ...otherData] : [...otherData, ...data];
-  renderPosters();
-}
-
-// Event listeners
-document.getElementById('search-input').addEventListener('input', filterPosters);
-document.getElementById('group-filter').addEventListener('change', filterPosters);
-document.getElementById('session-filter').addEventListener('change', filterPosters);
-
-// Initial render
-renderPosters();
-</script>
