@@ -1,0 +1,56 @@
+number,title,Final_Group_Name,Final_Set_Name
+1,A Practical Sufficient Test of Consciousness for Language Models,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+2,How Uninformed Reports Impact Trust: A Formal Model Involving Implicit Intention,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+4,NAIL: A Neuropsychological Approach to Interpretability in Large Language Agents: Applications to Theory of Mind,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+5,The AI Tipping Point: How Design and Repeated Use Shape Beliefs about Machine Minds,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+6,The Resonance Corpus: A Large-Scale Chinese Parentï¿½ï¿½ï¿½Child Conversation D,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+7,HiVAE: Hierarchical Latent Variables for Scalable Theory of Mind,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+8,RToMA: Recursive Theory of Mind Alignment for Large Language Models,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+9,Exploration Through Introspection: A Self-Aware Reward Model,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+11,Toward Theory of Mind: BERT Learns and Uses Emotion Geometry in Two Phases,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+12,Latent Theory of Mind in World Models for Multi-Agent Reinforcement Learning,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+13,Predicting Emergent Capabilities Using Sparse Features,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+14,Temporal Localization Improves Video Theory of Mind in Multimodal LLMs,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+15,ýýýTell Me Something About Yourselfýýý: Setting Appropriate Perceptions and Expectations on AI Systems,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+16,On the Evolution of Multi-Agent Communication in Non-Cooperative Games,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+17,How Social Environments Shape Brains: Modelling Developmental Adversity using Neural Networks,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+18,A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+19,"On the Interplay of Training Population Diversity, Theory of Mind, and Zero-Shot Coordination",Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+21,Aesthetic Theory of Mind: Using Artistic Conception Computation as a Litmus Test for Machine ToM,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+22,Morals and Reasoning: Formalizing Moral Influence on Reasoning and AI Systems Alignment,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+23,Four Decision-Heads are Better Than One: Augmenting Decision Making with Collective Cognition in Small Neural Networks,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+24,From Theory of Mind to Theory of Environment: Counterfactual Simulation of Latent Environmental Dynamics,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+26,Routing Belief States: A Meta-Cognitive Architecture for Theory of Mind in Language Models,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+27,Do Language Models Understand Social Minds? A ToM-based Probe Through Norm Detection,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+28,AI Alignment Demands Better Emotion Recognition and Social Understanding Capabilities,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+29,Artificial Theory of Mind in Human-in-the-Loop,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+30,Geometric Belief Spaces: A Topological Framework for Scalable Multi-Agent Theory of Mind,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+31,Who Knows Who Knows? A Step Toward Common Knowledge in Multi-Agent Systems,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+32,Theory of Mind for Explainable Human-Robot Interaction,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+33,SUITE: Scaling Up Individualized Theory-of-Mind Evaluation in Large Language Models,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+34,Theory of Mind and Optimistic Beliefs Emerge in a Sequential Dilemma with Incremental Rewards,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+35,Visual Theory of Mind through LLM-based Semantic Extraction,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+36,Theory of Mind through Partially Ordered Plans,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+37,Decomposing Theory of Mind: How Emotional Processing Mediates ToM Abilities in LLMs,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+38,Inside Deception: How to Exploit a Target,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+39,Learning User Boredom Thresholds for a Conversational Robot,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+40,Language-Informed Synthesis of Rational Agent Models for Grounded Theory-of-Mind Reasoning On-The-Fly,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+41,Complementarity of Developmental Motivation and Learned Intrinsic Rewards in Multi-Agent Reinforcement Learning,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+42,Recursive Bayesian Theory of Mind for Sparse-Observation Multi-Agent Gridworlds,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+43,Reasoning About Bias: Theory of Mind for Trustworthy Knowledge Distillation,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+45,Do LLMs Possess Theory of Mind in Pokï¿½ï¿½mon Battle Paradi,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+46,Investigating the Effects of Translation Quality on LLM Performance in Machine-Translated Theory of Mind Benchmarks,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+47,Sign-Based World Model as a Basis of Cognitive Modeling: Imitation in Human-Robot Interaction,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+48,Beyond VAGUE: Attention Analysis for Probing How VLMs Ground Ambiguity,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+49,Semantic Encoders Enable Robust Communication-Aware Reinforcement Learning Policies,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+50,Faithful Theory of Mind Distillation: Why Preference Based Refinement Improves Imitation,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+51,Introducing Dialogue-Act Framework for Multi-Agent LLM Negotiation,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+52,A Model-Based Approach for Recognizing Unknown Goal Combinations,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+53,The Curse of Knowledge in Language Models: Perfect Theory of Mind or Missing Human Biases?,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+54,A Multi-Game MARL Framework for Evaluating Social Reasoning,Group 3: Multi-Agent Systems & Game Theory,Set B: Computational Agents & Systems
+55,Correcting LLM Errors: A Metacognitive Architecture for ToM Adaptation in AI Agents,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+56,Connectome-Based Alignment between Brain and Large Language Models via Gromov-Wasserstein Barycenters,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects
+57,Explanation-first Explainable AI,Group 1: Human-AI Interaction & Trust,Set A: Human & Cognitive Aspects
+58,Belief-Desire-Intention Dynamics in Language Models via the p-Beauty Contest,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+59,A Mechanistic Investigation of Theory-of-Mind in a Large Language Model,Group 2: LLM Theory of Mind & Evaluation,Set B: Computational Agents & Systems
+60,Theoretical Framework for a Quantum Brain Model,Group 4: Cognitive Architectures & Multimodal ToM,Set A: Human & Cognitive Aspects

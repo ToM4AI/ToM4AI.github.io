@@ -36,7 +36,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - location will be announc
 </tr>
 <tr style="background: rgba(255,255,255,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">10:05 - 10:30</td>
-<td style="padding: 12px 20px;">📊 <strong>Poster Session I</strong></td>
+<td style="padding: 12px 20px;">📊 <strong><a href="/AAAI2026/posters/" style="color: #007bff; text-decoration: none;">Poster Session I</a></strong> <small>(Set A: Human & Cognitive Aspects)</small></td>
 </tr>
 <tr style="background: rgba(248,249,250,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">10:30 - 11:00</td>
@@ -48,7 +48,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - location will be announc
 </tr>
 <tr style="background: rgba(248,249,250,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">12:00 - 12:30</td>
-<td style="padding: 12px 20px;">📊 <strong>Poster Session II</strong></td>
+<td style="padding: 12px 20px;">📊 <strong><a href="/AAAI2026/posters/" style="color: #007bff; text-decoration: none;">Poster Session II</a></strong> <small>(Set B: Computational Agents & Systems)</small></td>
 </tr>
 <tr style="background: rgba(255,255,255,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">12:30 - 14:00</td>
