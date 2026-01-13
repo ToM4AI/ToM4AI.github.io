@@ -18,7 +18,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - location will be announc
 <div style="display: flex; justify-content: center; margin: 3em 0;">
 <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2em; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); max-width: 800px; width: 100%;">
 
-<table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+<table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #000000;">
 <thead>
 <tr style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: white;">
 <th style="padding: 15px 20px; text-align: left; font-weight: 600; border-radius: 8px 0 0 0;">🕐 Time</th>
