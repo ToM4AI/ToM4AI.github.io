@@ -11,7 +11,7 @@ permalink: /AAAI2026/program/
   </div>
 </div>
 
-ToM4AI is a full, one-day workshop, Monday 26/01/2026 - location will be announced soon
+ToM4AI is a full, one-day workshop, Monday 26/01/2026 - Singapore EXPO [Garnet Room 213]
 
 ## 📅 Workshop Schedule
 
