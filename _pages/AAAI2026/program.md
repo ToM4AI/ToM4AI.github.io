@@ -76,7 +76,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - location will be announc
 </tr>
 <tr style="background: rgba(255,255,255,0.8);">
 <td style="padding: 12px 20px; font-weight: 500;">17:45 - late</td>
-<td style="padding: 12px 20px;">🎉 <strong>ToM4AI Social</strong> <em>(Location TBC - Optional)</em></td>
+<td style="padding: 12px 20px;">🎉 <strong>ToM4AI Social</strong> <em>(Location Tapout Craft Beers, 103 E Coast Rd, Singapore 428797 [Optional])</em></td>
 </tr>
 </tbody>
 </table>
