@@ -68,7 +68,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - Singapore EXPO [Garnet R
 </tr>
 <tr style="background: rgba(255,255,255,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">16:30 - 17:30</td>
-<td style="padding: 12px 20px;">✨ <strong>Spotlight Papers</strong></td>
+<td style="padding: 12px 20px;">✨ <strong><a href="/AAAI2026/spotlight-talks/" style="color: #007bff; text-decoration: none;">Spotlight Papers</a></strong> <small>(6 selected talks)</small></td>
 </tr>
 <tr style="background: rgba(248,249,250,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">17:30 - 17:45</td>
