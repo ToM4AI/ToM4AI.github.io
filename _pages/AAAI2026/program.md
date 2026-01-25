@@ -60,7 +60,7 @@ ToM4AI is a full, one-day workshop, Monday 26/01/2026 - Singapore EXPO [Garnet R
 </tr>
 <tr style="background: rgba(255,255,255,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">15:00 - 16:00</td>
-<td style="padding: 12px 20px;">💻 <strong><a href="/AAAI2026/tomathon_tamplate.md/" style="color: #007bff; text-decoration: none;">Collaborative ToM 'Hackathon'</a></strong></td>
+<td style="padding: 12px 20px;">💻 <strong>Collaborative ToM 'Hackathon'</strong> <small>(<a href="../../files/tomathon_template.md" download style="color: #007bff; text-decoration: none;">📥 Download Template</a>)</small></td>
 </tr>
 <tr style="background: rgba(248,249,250,0.8); border-bottom: 1px solid #dee2e6;">
 <td style="padding: 12px 20px; font-weight: 500;">16:00 - 16:30</td>
