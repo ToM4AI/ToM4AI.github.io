@@ -56,7 +56,6 @@ layout: single
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  min-width: 600px;
 }
 
 .poster-table thead {
@@ -85,6 +84,7 @@ layout: single
 .poster-table td {
   padding: 12px 15px;
   border-bottom: 1px solid #dee2e6;
+  word-wrap: break-word;
 }
 
 .poster-table tbody tr:hover {
@@ -126,35 +126,58 @@ layout: single
   }
   
   .poster-table {
-    font-size: 14px;
+    font-size: 13px;
   }
   
-  .poster-table th,
+  .poster-table th {
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+  
   .poster-table td {
-    padding: 10px 8px;
+    padding: 8px 6px;
+    vertical-align: top;
+  }
+  
+  .poster-table th:first-child,
+  .poster-table td:first-child {
+    width: 50px;
+  }
+  
+  .poster-table th:nth-child(2),
+  .poster-table td:nth-child(2) {
+    min-width: 150px;
   }
   
   .badge {
-    font-size: 10px;
-    padding: 3px 8px;
-    display: block;
-    margin: 4px 0;
-    text-align: center;
+    font-size: 9px;
+    padding: 2px 6px;
+    display: inline-block;
+    margin: 2px 0;
   }
 }
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
   
   .poster-table {
-    font-size: 12px;
+    font-size: 11px;
   }
   
-  .poster-table th,
+  .poster-table th {
+    padding: 8px 4px;
+    font-size: 11px;
+  }
+  
   .poster-table td {
-    padding: 8px 6px;
+    padding: 6px 4px;
+  }
+  
+  .poster-table th:first-child,
+  .poster-table td:first-child {
+    width: 40px;
   }
 }
 
