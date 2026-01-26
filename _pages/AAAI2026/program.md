@@ -5,9 +5,8 @@ permalink: /AAAI2026/program/
 
 <div style="text-align: center; margin: 2em 0;">
   <h3>Proudly supported by:</h3>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap; margin-top: 1em;">
-    <img src="../../images/edith_cowan_uni_logo.jpeg" alt="Edith Cowan University" style="height: 120px;">
-    <img src="../../images/Ketryx LogoFull Color.png" alt="Ketryx" style="height: 120px;">
+  <div style="display: flex; justify-content: center; align-items: center; margin-top: 1em;">
+    <img src="../../images/edith_cowan_uni_logo.jpeg" alt="Edith Cowan University" style="height: 180px;">
   </div>
 </div>
 
