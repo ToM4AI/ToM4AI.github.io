@@ -180,6 +180,49 @@ layout: single
   color: #6c757d;
   font-size: 18px;
 }
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .poster-table {
+    background: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .poster-table td {
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+  }
+  
+  .poster-table tbody tr:hover {
+    background: #2a2a2a;
+  }
+  
+  .poster-table tbody tr:nth-child(even) {
+    background: rgba(255,255,255,0.05);
+  }
+  
+  .poster-table tbody tr:nth-child(even):hover {
+    background: #2a2a2a;
+  }
+  
+  .filter-section {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+  }
+  
+  .filter-group label {
+    color: #e0e0e0;
+  }
+  
+  .filter-group input, .filter-group select {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #0099ff;
+  }
+  
+  .no-results {
+    color: #999;
+  }
+}
 </style>
 
 <div class="poster-container">
