@@ -43,12 +43,6 @@ layout: single
   box-shadow: 0 0 5px rgba(0,123,255,0.3);
 }
 
-.table-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 20px 0;
-}
-
 .poster-table {
   width: 100%;
   border-collapse: collapse;
@@ -84,7 +78,6 @@ layout: single
 .poster-table td {
   padding: 12px 15px;
   border-bottom: 1px solid #dee2e6;
-  word-wrap: break-word;
 }
 
 .poster-table tbody tr:hover {
@@ -98,87 +91,6 @@ layout: single
 
 .poster-table tbody tr:nth-child(even):hover {
   background: #e9ecef;
-}
-
-/* Mobile Responsive Styles */
-@media screen and (max-width: 768px) {
-  .poster-container {
-    padding: 10px;
-  }
-  
-  .stats {
-    flex-direction: column;
-  }
-  
-  .stat-card {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .session-header {
-    font-size: 16px;
-    padding: 12px 15px;
-  }
-  
-  .session-header small {
-    display: block;
-    margin-top: 5px;
-  }
-  
-  .poster-table {
-    font-size: 13px;
-  }
-  
-  .poster-table th {
-    padding: 10px 6px;
-    font-size: 12px;
-  }
-  
-  .poster-table td {
-    padding: 8px 6px;
-    vertical-align: top;
-  }
-  
-  .poster-table th:first-child,
-  .poster-table td:first-child {
-    width: 50px;
-  }
-  
-  .poster-table th:nth-child(2),
-  .poster-table td:nth-child(2) {
-    min-width: 150px;
-  }
-  
-  .badge {
-    font-size: 9px;
-    padding: 2px 6px;
-    display: inline-block;
-    margin: 2px 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 20px !important;
-  }
-  
-  .poster-table {
-    font-size: 11px;
-  }
-  
-  .poster-table th {
-    padding: 8px 4px;
-    font-size: 11px;
-  }
-  
-  .poster-table td {
-    padding: 6px 4px;
-  }
-  
-  .poster-table th:first-child,
-  .poster-table td:first-child {
-    width: 40px;
-  }
 }
 
 .badge {
@@ -294,7 +206,6 @@ layout: single
     📊 Poster Session I - Set A: Human & Cognitive Aspects<br>
     <small style="font-size: 14px; opacity: 0.9;">10:05 - 10:30</small>
   </div>
-  <div class="table-wrapper">
   <table class="poster-table">
     <thead>
       <tr>
@@ -426,7 +337,6 @@ layout: single
       </tr>
     </tbody>
   </table>
-  </div>
 </div>
 
 <div id="session-b-section">
@@ -434,7 +344,6 @@ layout: single
     📊 Poster Session II - Set B: Computational Agents & Systems<br>
     <small style="font-size: 14px; opacity: 0.9;">12:00 - 12:30</small>
   </div>
-  <div class="table-wrapper">
   <table class="poster-table">
     <thead>
       <tr>
@@ -601,7 +510,6 @@ layout: single
       </tr>
     </tbody>
   </table>
-  </div>
 </div>
 
 </div>
