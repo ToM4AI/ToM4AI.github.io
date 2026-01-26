@@ -43,6 +43,12 @@ layout: single
   box-shadow: 0 0 5px rgba(0,123,255,0.3);
 }
 
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px 0;
+}
+
 .poster-table {
   width: 100%;
   border-collapse: collapse;
@@ -50,6 +56,7 @@ layout: single
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  min-width: 600px;
 }
 
 .poster-table thead {
@@ -91,6 +98,64 @@ layout: single
 
 .poster-table tbody tr:nth-child(even):hover {
   background: #e9ecef;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .poster-container {
+    padding: 10px;
+  }
+  
+  .stats {
+    flex-direction: column;
+  }
+  
+  .stat-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .session-header {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+  
+  .session-header small {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .poster-table {
+    font-size: 14px;
+  }
+  
+  .poster-table th,
+  .poster-table td {
+    padding: 10px 8px;
+  }
+  
+  .badge {
+    font-size: 10px;
+    padding: 3px 8px;
+    display: block;
+    margin: 4px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px !important;
+  }
+  
+  .poster-table {
+    font-size: 12px;
+  }
+  
+  .poster-table th,
+  .poster-table td {
+    padding: 8px 6px;
+  }
 }
 
 .badge {
@@ -206,6 +271,7 @@ layout: single
     📊 Poster Session I - Set A: Human & Cognitive Aspects<br>
     <small style="font-size: 14px; opacity: 0.9;">10:05 - 10:30</small>
   </div>
+  <div class="table-wrapper">
   <table class="poster-table">
     <thead>
       <tr>
@@ -337,6 +403,7 @@ layout: single
       </tr>
     </tbody>
   </table>
+  </div>
 </div>
 
 <div id="session-b-section">
@@ -344,6 +411,7 @@ layout: single
     📊 Poster Session II - Set B: Computational Agents & Systems<br>
     <small style="font-size: 14px; opacity: 0.9;">12:00 - 12:30</small>
   </div>
+  <div class="table-wrapper">
   <table class="poster-table">
     <thead>
       <tr>
@@ -510,6 +578,7 @@ layout: single
       </tr>
     </tbody>
   </table>
+  </div>
 </div>
 
 </div>
