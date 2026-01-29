@@ -94,6 +94,14 @@ layout: single
   line-height: 1.4;
 }
 
+.talk-authors {
+  font-size: 15px;
+  color: #666;
+  margin: 10px 60px 10px 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
 .paper-number {
   display: inline-block;
   background: #e9ecef;
@@ -151,36 +159,42 @@ layout: single
 <div class="talk-card">
   <div class="talk-order">1</div>
   <h2 class="talk-title">Theory of Mind and Optimistic Beliefs Emerge in a Sequential Dilemma with Incremental Rewards</h2>
+  <div class="talk-authors">Tom Lenaerts; Marco Saponara; Jorge M Pacheco; Francisco C. Santos</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #34</div>
 </div>
 
 <div class="talk-card">
   <div class="talk-order">2</div>
   <h2 class="talk-title">A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind</h2>
+  <div class="talk-authors">Fengming Zhu; Yuxin Pan; Xiaomeng Zhu; Fangzhen Lin</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #18</div>
 </div>
 
 <div class="talk-card">
   <div class="talk-order">3</div>
   <h2 class="talk-title">Language-Informed Synthesis of Rational Agent Models for Grounded Theory-of-Mind Reasoning On-The-Fly</h2>
+  <div class="talk-authors">Lance Ying; Ryan Truong; Katherine M. Collins; Cedegao E. Zhang; Megan Wei; Tyler BrookeWilson; Tan Zhi-Xuan; Lionel Wong; Joshua B. Tenenbaum</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #40</div>
 </div>
 
 <div class="talk-card">
   <div class="talk-order">4</div>
   <h2 class="talk-title">Theory of Mind for Explainable Human-Robot Interaction</h2>
+  <div class="talk-authors">Marie Bauer; Julia Gachot; Matthias Kerzel; Cornelius Weber; Stefan Wermter</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #32</div>
 </div>
 
 <div class="talk-card">
   <div class="talk-order">5</div>
   <h2 class="talk-title">SUITE: Scaling Up Individualized Theory-of-Mind Evaluation in Large Language Models</h2>
+  <div class="talk-authors">Zhenze Mo; Chance Jiajie Li; Ao Qu; Yuhan Tang; Luis Alberto Alonso Pastor; Kent Larson; Jinhua Zhao</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #33</div>
 </div>
 
 <div class="talk-card">
   <div class="talk-order">6</div>
   <h2 class="talk-title">The Curse of Knowledge in Language Models: Perfect Theory of Mind or Missing Human Biases?</h2>
+  <div class="talk-authors">Nutchanon Yongsatianchot</div>
   <div class="paper-number"><span class="spotlight-icon">📄</span>Paper #53</div>
 </div>
 

@@ -1,7 +1,7 @@
-Talk Order, Paper Number, Title
-1, 34, Theory of Mind and Optimistic Beliefs Emerge in a Sequential Dilemma with Incremental Rewards
-2, 18, A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind
-3, 40, Language-Informed Synthesis of Rational Agent Models for Grounded Theory-of-Mind Reasoning On-The-Fly
-4, 32, Theory of Mind for Explainable Human-Robot Interaction
-5, 33, SUITE: Scaling Up Individualized Theory-of-Mind Evaluation in Large Language Models
-6, 53, The Curse of Knowledge in Language Models: Perfect Theory of Mind or Missing Human Biases?
+Talk Order, Paper Number, Title, Authors
+1, 34, Theory of Mind and Optimistic Beliefs Emerge in a Sequential Dilemma with Incremental Rewards, Tom Lenaerts; Marco Saponara; Jorge M Pacheco; Francisco C. Santos 
+2, 18, A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind, Fengming Zhu; Yuxin Pan; Xiaomeng Zhu; Fangzhen Lin 
+3, 40, Language-Informed Synthesis of Rational Agent Models for Grounded Theory-of-Mind Reasoning On-The-Fly, Lance Ying; Ryan Truong; Katherine M. Collins; Cedegao E. Zhang; Megan Wei; Tyler BrookeWilson; Tan Zhi-Xuan; Lionel Wong; Joshua B. Tenenbaum 
+4, 32, Theory of Mind for Explainable Human-Robot Interaction, Marie Bauer; Julia Gachot; Matthias Kerzel; Cornelius Weber; Stefan Wermter
+5, 33, SUITE: Scaling Up Individualized Theory-of-Mind Evaluation in Large Language Models, Zhenze Mo; Chance Jiajie Li; Ao Qu; Yuhan Tang; Luis Alberto Alonso Pastor; Kent Larson; Jinhua Zhao 
+6, 53, The Curse of Knowledge in Language Models: Perfect Theory of Mind or Missing Human Biases?, Nutchanon Yongsatianchot 
