@@ -1,6 +1,6 @@
 ---
 title: "Workshop Summary"
-permalink: /AAAI2026/workshop-summary/
+permalink: /events/AAAI2026/workshop-summary/
 layout: single
 ---
 
