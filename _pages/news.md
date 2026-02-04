@@ -2,9 +2,6 @@
 title: "News & Updates"
 permalink: /news/
 author_profile: true
-redirect_from: 
-  - /news/
-  - /new.html
 ---
 
 ## Latest News & Updates
