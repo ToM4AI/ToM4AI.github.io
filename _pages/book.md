@@ -2,9 +2,18 @@
 permalink: /book/
 title: "ToM4AI book"
 author_profile: true
+analytics: false
 redirect_from: 
   - /book.html
 ---
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1VY9LHXWQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N1VY9LHXWQ');
+</script>
 
 <div style="padding: 1.25rem 1.5rem; margin: 1rem 0 1.5rem; border: 2px solid #d8e9ff; border-left: 6px solid #2d6a4f; border-radius: 12px; background: linear-gradient(135deg, #f4f9ff 0%, #edf7f1 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
   <p style="margin: 0; font-size: 1.15em; font-weight: 600; color: #1f2d3d;">Our book <strong>"Theory of Mind in Natural and Artificial Intelligence"</strong> is coming soon.</p>
