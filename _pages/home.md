@@ -21,12 +21,6 @@ The **Theory of Mind for AI (ToM4AI)** initiative is a multidisciplinary effort 
  
  ---
 
-## Latest Updates
-
-Stay informed about our upcoming events and announcements on the [News & Updates](/news/) page.
-
----
-
 ## Workshops & Events
 
 ### Upcoming
@@ -35,6 +29,12 @@ Stay informed about our upcoming events and announcements on the [News & Updates
 ### Past Workshops
 - **[AAAI 2026 — ToM4AI Workshop](events/AAAI2026/)** - The second ToM4AI workshop held at AAAI 2026.
 - **AAAI 2025 — ToM4AI Workshop** - The inaugural ToM4AI workshop that launched this multidisciplinary initiative at AAAI 2025.
+
+---
+
+## Latest Updates
+
+Stay informed about our upcoming events and announcements on the [News & Updates](/news/) page.
 
 ---
 
