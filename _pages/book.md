@@ -6,9 +6,10 @@ redirect_from:
   - /book.html
 ---
 
-Our book on Theory of Mind for Artificial Intelligence is coming soon.
-
-If you would like to be among the first to hear about the launch, publication updates, and related announcements, subscribe below.
+<div style="padding: 1.25rem 1.5rem; margin: 1rem 0 1.5rem; border: 2px solid #d8e9ff; border-left: 6px solid #2d6a4f; border-radius: 12px; background: linear-gradient(135deg, #f4f9ff 0%, #edf7f1 100%); box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+  <p style="margin: 0; font-size: 1.15em; font-weight: 600; color: #1f2d3d;">Our book <strong>"Theory of Mind in Natural and Artificial Intelligence"</strong> is coming soon.</p>
+  <p style="margin: 0.75rem 0 0; color: #334155;">If you would like to be among the first to hear about the launch, publication updates, and related announcements, subscribe below.</p>
+</div>
 
 ## Subscribe for book updates
 
