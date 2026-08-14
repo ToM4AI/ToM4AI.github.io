@@ -121,6 +121,11 @@ atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
+# Book news signup form (for static hosting, use a provider like Formspree)
+book_news:
+  form_action            : "https://formspree.io/f/xkjwzrrn" # e.g. https://formspree.io/f/your_form_id
+  success_redirect       : "/book/?subscribed=1"
+
 
 # SEO Related
 google_site_verification :
