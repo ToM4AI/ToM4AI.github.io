@@ -6,6 +6,11 @@ redirect_from:
   - /events.html
 ---
 
+## AAAI-2027
+
+We are excited to welcome the 3rd ToM4AI workshop in Montreal. 
+[AAAI-2027 Workshop Details](AAAI2027/AAAI2027.md)
+
 ## AAAI-2026
 
 We are thrilled to announce the 2nd ToM4AI workshop. 
