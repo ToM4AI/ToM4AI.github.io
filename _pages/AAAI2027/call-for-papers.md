@@ -19,8 +19,8 @@ We welcome submissions in the form of **extended abstracts** (*maximum 2 pages*,
 
 **Important dates:**
 
-- **20/11/2026 - submissions due (AOE)**
-- 02/12/2026 - authors notification
+- **02/12/2026 - submissions due (AOE)**
+- 10/12/2026 - authors notification
 
 **Topics include (but are not limited to):**
 
